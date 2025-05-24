@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 4b932776-6e88-4900-9429-0cc57b56fc12
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: in
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: 
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - kill
+  - RPC_Kill
+  - RPC_MoveHead
+  - RPC_SyncImposter
+  - RPC_SetMapSettings
+  - color
+  - PRC_SetColor
+  - RPC_SetName
+  - PRC_SetBodySkin
+  - RPC_SetImposter
+  - RPC_SetPlayerTag
+  - RPC_SetBodySkin
+  - RPC_Die
+  - RPC_SetHeadSkin
+  - RPC_SetFaceSkin
+  - RPC_SetDeadBodyName
+  - RPC_BodyReported
+  - RPC_SetEmergencyTime
+  - RPC_CallEmergencyMeeting
+  - RPC_SetVotingInfo
+  - RPC_AddVote
+  - RPC_EjectPlayer
+  - RPC_VentAnimation
+  - RPC_OpenDoor
+  - RPC_CloseDoor
+  - RPC_StartCooldown
+  - RPC_IncrementTaskBar
+  - PRC_SetCount
+  - RPC_SetTarget
+  - RPC_SetCount
+  - RPC_StartDoorCooldown
+  - RPC_StartCriticalCooldown
+  - RPC_ResetTimer
+  - RPC_Decrement
+  - RPC_Increment
+  - RPC_ReactorReset
+  - RPC_FixedLights
+  - RPC_CrewmatesWin
+  - RPC_ImpostersWin
+  - RPC_KilledCrewmate
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 0
